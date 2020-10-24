@@ -10,11 +10,11 @@ import './image/rt-logo.svg'
 
 //nav button
 
-function toggleMenu(x) {
+window.toggleMenu = function toggleMenu(x) {
     x.classList.toggle("change");
 }
 
-window.toggleMenu = toggleMenu
+
 
 
 
