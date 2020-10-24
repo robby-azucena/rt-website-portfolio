@@ -7,6 +7,20 @@ import './image/rt-logo.svg'
 
 
 
+
+//nav button
+
+function toggleMenu(x) {
+    x.classList.toggle("change");
+}
+
+window.toggleMenu = toggleMenu
+
+
+
+
+
+
 let Rellax = require('rellax');
 
 var rellax = new Rellax('.backgroundIndex-banner',{
@@ -17,3 +31,5 @@ var rellax = new Rellax('.backgroundIndex-banner',{
     vertical: true,
     horizontal: false
 });
+
+
