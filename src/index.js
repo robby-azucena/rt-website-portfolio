@@ -12,6 +12,7 @@ import './image/rt-logo.svg'
 
 window.toggleMenu = function toggleMenu(x) {
     x.classList.toggle("change");
+    document.querySelector('.nav-menu').classList.toggle('open')
 }
 
 
