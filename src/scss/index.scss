@@ -19,7 +19,7 @@ body{
 
 nav{
     z-index: 1000;
-    position: sticky;
+    position: fixed;
     top:0;
     height:100px;
     width: 100%;
@@ -118,12 +118,23 @@ nav{
 
 }
 
-.flex-center-column{
+.flex{
+    height:100%;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.align-center{
+    align-items: center;
 }
 
 .front-banner{
@@ -136,6 +147,30 @@ nav{
     border-radius: 30px;
     padding: 30px;
 }
+
+.text-center{
+    text-align: center;
+}
+
+.m-10{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+
+
 
 
 
@@ -193,12 +228,13 @@ nav{
     position:relative;
     width:100%;
     height: 100%;
+    margin-bottom: 200px;
     
-    .backgroundLiquid{
+    .backgroundLiquid1{
         width: 100%;
-        height: 215px;
+        height: 450px;
         position: absolute;
-        top: -214px;
+        top: -270px;
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
@@ -206,10 +242,27 @@ nav{
     }
 
     @media (max-width:576px) {
-        .backgroundLiquid{
-            top: -152px;
-        }
+     
     }
 
     
+}
+
+#index-client{
+    position:relative;
+    width:100%;
+    height: 100%;
+    
+
+
+    .backgroundLiquid2{
+        width: 100%;
+        height: 450px;
+        position: absolute;
+        top: -270px;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        background-image: url('/image/wave2.svg');
+    }
 }

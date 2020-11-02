@@ -1,4 +1,6 @@
 .btn{
+    display:flex;
+    flex-direction: row;
     outline:none;
     background: none;
     font-size: 1.125rem;
@@ -22,4 +24,10 @@
 .btn-primary:active{
     background-color: #3ea77d;
     border: 4px solid #3ea77d;
+}
+
+.btn-word{
+    text-align: center;
+    border:none;
+    color: #214C85;
 }

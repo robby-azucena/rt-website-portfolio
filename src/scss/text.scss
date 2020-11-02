@@ -1,8 +1,13 @@
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,p{
     width: 100%;
     margin:0;
 }
 
-h1,h2{
+h1,h2,h3{
     font-family: 'Montserrat', sans-serif !important;
+}
+
+a{
+    text-decoration: none;
+    margin:0;
 }
