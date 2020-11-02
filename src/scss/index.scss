@@ -130,6 +130,11 @@ nav{
     color:white;
 }
 
+.border-div{
+    border: 2px solid #1EC6C6;
+    border-radius: 30px;
+    padding: 30px;
+}
 
 
 
@@ -173,8 +178,32 @@ nav{
                 font-size: 2.5rem;
             }
             h2{
-                font-size: 1.5rem;
+                font-size: 1rem;
             }
         }
     }
+}
+
+#index-services{
+    position:relative;
+    width:100%;
+    height: 100%;
+    
+    .backgroundLiquid{
+        width: 100%;
+        height: 215px;
+        position: absolute;
+        top: -214px;
+        background-position: top;
+        background-size: auto;
+        background-image: url('/image/wave1.svg');
+    }
+
+    @media (max-width:576px) {
+        .backgroundLiquid{
+            top: -152px;
+        }
+    }
+
+    
 }

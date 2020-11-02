@@ -4,6 +4,9 @@ import 'rellax';
 
 import './image/home-banner.jpg'
 import './image/rt-logo.svg'
+import './image/wave1.svg'
+import './image/ent-sol.svg'
+import './image/digi-market.svg'
 
 
 
