@@ -119,6 +119,7 @@ nav{
 }
 
 .flex-center-column{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +142,10 @@ nav{
 
 
 #index-banner{
-    height:80vh;
+    margin-bottom: 30px;
+    min-width: auto;
+    height:90vh;
+    width: 100%;
     .backgroundIndex-banner{
         background-image: url('/image/home-banner.jpg');
         background-attachment: fixed;
@@ -151,34 +155,35 @@ nav{
 
         .container{
             height:100%;
-        }
+            width: 100%;
 
-        h1{
-            margin-bottom: 10px;
-            font-size: 4.5rem;
-        }
-
-        h2{
-            margin-bottom: 30px;
-            font-size: 1.75rem;
-            font-weight: 400;
-        }
-
-        @media (max-width: 576px) {
             h1{
-                font-size: 1.875rem;
+                margin-bottom: 10px;
+                font-size: 4.5rem;
             }
+    
             h2{
-                font-size: 1.125rem;
+                margin-bottom: 30px;
+                font-size: 1.75rem;
+                font-weight: 400;
             }
-        }
-
-        @media (max-width: 1024px) {
-            h1{
-                font-size: 2.5rem;
+    
+            @media (max-width: 576px) {
+                h1{
+                    font-size: 1.875rem;
+                }
+                h2{
+                    font-size: 1.125rem;
+                }
             }
-            h2{
-                font-size: 1rem;
+    
+            @media (max-width: 1023px) {
+                h1{
+                    font-size: 2.5rem;
+                }
+                h2{
+                    font-size: 1rem;
+                }
             }
         }
     }
@@ -194,8 +199,9 @@ nav{
         height: 215px;
         position: absolute;
         top: -214px;
+        background-repeat: no-repeat;
         background-position: top;
-        background-size: auto;
+        background-size: cover;
         background-image: url('/image/wave1.svg');
     }
 
