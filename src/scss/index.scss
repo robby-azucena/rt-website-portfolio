@@ -119,7 +119,6 @@ nav{
 }
 
 .flex{
-    height:100%;
     width: 100%;
     display: flex;
 }
@@ -341,5 +340,6 @@ nav{
 
     .about-padding{
         padding: 30px 10px 30px 10px;
+        margin:auto;
     }
 }
