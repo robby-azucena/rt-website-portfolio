@@ -228,7 +228,7 @@ nav{
     position:relative;
     width:100%;
     height: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     
     .backgroundLiquid1{
         width: 100%;
@@ -241,8 +241,22 @@ nav{
         background-image: url('/image/wave1.svg');
     }
 
-    @media (max-width:576px) {
-     
+    h2{
+        font-size: 2.5rem;
+        font-weight: 300;
+        color: #214C85;
+    }
+
+    h3{
+        font-size: 1.875rem;
+        font-weight: 600;
+        color: #214C85;
+    }
+
+    h4{
+        font-size: 1.125rem;
+        font-weight: 400;
+        color: #333333;
     }
 
     
@@ -252,8 +266,9 @@ nav{
     position:relative;
     width:100%;
     height: 100%;
+    background-color: #ECF8F9;
+    padding-bottom: 300px;
     
-
 
     .backgroundLiquid2{
         width: 100%;
@@ -264,5 +279,38 @@ nav{
         background-position: top;
         background-size: cover;
         background-image: url('/image/wave2.svg');
+    }
+
+    h2{
+        font-size: 2.5rem;
+        font-weight: 300;
+        color: #214C85;
+    }
+
+    h4{
+        font-size: 1.125rem;
+        line-height: 40px;
+        font-weight: 400;
+        color: #214C85;
+    }
+}
+
+
+#index-about{
+    position:relative;
+    width:100%;
+    height: 100%;
+    background-color: #DDEBF1;
+    padding-bottom: 300px;
+
+    .backgroundLiquid3{
+        width: 100%;
+        height: 450px;
+        position: absolute;
+        top: -270px;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        background-image: url('/image/wave3.svg');
     }
 }
