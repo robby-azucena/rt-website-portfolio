@@ -180,6 +180,24 @@ nav{
     height: 100%;
 }
 
+.divider{
+    border-left: 2px solid #214C85;
+    min-height: 100%;
+    width:2px;
+    margin: auto;
+}
+
+@media (max-width: 991px){
+    .divider{
+        border-bottom: 2px solid #214C85;
+        border-left: none;
+        min-height: 0%;
+        width:100%;
+        min-width: 100%;
+        height:2px;
+    }
+}
+
 
 
 
@@ -257,12 +275,7 @@ nav{
         color: #214C85;
     }
 
-    h3{
-        font-size: 1.875rem;
-        font-weight: 600;
-        color: #214C85;
-    }
-
+    
     
 
     
@@ -293,15 +306,6 @@ nav{
         color: #214C85;
     }
 
-    h4{
-        font-size: 1.125rem;
-        line-height: 40px;
-        font-weight: 400;
-        color: #214C85;
-    }
-
-    
-
 }
 
 
@@ -321,5 +325,21 @@ nav{
         background-position: top;
         background-size: cover;
         background-image: url('/image/wave3.svg');
+    }
+
+    h2{
+        margin-top: 30px;
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: #214C85;
+    }
+
+    h4{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    .about-padding{
+        padding: 30px 10px 30px 10px;
     }
 }
