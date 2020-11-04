@@ -7,6 +7,7 @@ import './image/rt-logo.svg'
 import './image/wave1.svg'
 import './image/wave2.svg'
 import './image/wave3.svg'
+import './image/wave4.svg'
 import './image/ent-sol.svg'
 import './image/digi-market.svg'
 

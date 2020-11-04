@@ -27,8 +27,12 @@
 }
 
 .btn-word{
+    font-weight: 400;
     text-align: center;
     border:none;
-    color: #214C85;
+    color: #214C85;  
+}
+
+.btn-word:hover{
     text-decoration: underline;
 }
