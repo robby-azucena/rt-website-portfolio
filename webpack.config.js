@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 var path = require("path")
 
 module.exports = {
@@ -61,6 +62,7 @@ module.exports = {
         ]
     },
     plugins: [
+        new FaviconsWebpackPlugin('./src/image/RT-favicon.png'),
         new HtmlWebpackPlugin({
             template: "./src/index.html",
             filename: "index.html"
