@@ -65,6 +65,18 @@ module.exports = {
             template: "./src/index.html",
             filename: "index.html"
         }),
+        new HtmlWebpackPlugin({
+            template: "./src/digital-marketing.html",
+            filename: "digital-marketing.html"
+        }),
+        new HtmlWebpackPlugin({
+            template: "./src/enterprise.html",
+            filename: "enterprise.html"
+        }),
+        new HtmlWebpackPlugin({
+            template: "./src/insights.html",
+            filename: "insights.html"
+        }),
         new MiniCssExtractPlugin({
             filename: "[name].css",
             chunkFilename: "[id].css",
