@@ -17,10 +17,32 @@ import './image/digi-market.svg'
 //nav button
 
 window.toggleMenu = function toggleMenu(x) {
-    x.classList.toggle("change");
-    document.querySelector('.nav-menu').classList.toggle('open')
+        x.classList.toggle("change");
+        document.querySelector('.nav-menu').classList.toggle('open')
 }
 
+
+
+//window.onscroll = function scroll(){
+//    if (window.scrollY > 10 && window.innerWidth > 788){
+//        document.querySelector('#navigation').classList.remove('transparent-nav');
+//    } else{
+//        document.querySelector('#navigation').classList.add('transparent-nav');
+//    } 
+//}
+
+
+
+
+//window.addEventListener('fullscreenchange',scroll)
+//
+//window.scroll = function scroll(){
+//    if (window.matchMedia('(max-width: 788px)').matches){
+//        document.querySelector('#navigation').classList.remove('transparent-nav');
+//    } else {
+//        document.querySelector('#navigation').classList.add('transparent-nav');
+//    }
+//}
 
 
 
