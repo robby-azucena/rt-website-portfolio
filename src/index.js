@@ -23,13 +23,14 @@ window.toggleMenu = function toggleMenu(x) {
 
 
 
-//window.onscroll = function scroll(){
-//    if (window.scrollY > 10 && window.innerWidth > 788){
-//        document.querySelector('#navigation').classList.remove('transparent-nav');
-//    } else{
-//        document.querySelector('#navigation').classList.add('transparent-nav');
-//    } 
-//}
+window.onscroll = function scroll(){
+    console.log(innerWidth)
+    if (window.scrollY < 10){
+        document.querySelector('#navigation').classList.remove('white-nav');
+    } else{
+        document.querySelector('#navigation').classList.add('white-nav');
+    } 
+}
 
 
 
@@ -52,13 +53,15 @@ window.toggleMenu = function toggleMenu(x) {
 
 let Rellax = require('rellax');
 
-var rellax = new Rellax('.backgroundIndex-banner', '.rellax',{
-    speed: 2,
+new Rellax('.backgroundIndex-banner', '.rellax',{
+    speed: 0,
     center: false,
     wrapper: null,
     round: true,
     vertical: true,
     horizontal: false
 });
+
+
 
 

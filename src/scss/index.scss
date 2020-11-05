@@ -16,12 +16,13 @@ body{
     background-color: #FAFBFF;
 }
 
-.transparent-nav{
-    background-color: rgba(0,0,0,0);
+.white-nav{
+    background-color: white;
     transition: all 0.2s;
+    box-shadow: 0px 3px 20px rgba($color: #000000, $alpha: 0.07);
 
     .nav-link{
-        color: white !important;
+        color: rgba(0,0,0,.9) !important;
     }
     
 }
@@ -33,8 +34,8 @@ nav{
     top:0;
     height:100px;
     width: 100%;
-    background-color: white;
-    box-shadow: 0px 3px 20px rgba($color: #000000, $alpha: 0.07);
+    
+    
     transition: all 0.2s;
     transition-property: background-color;
     display: flex;
@@ -55,7 +56,7 @@ nav{
                 .nav-link{
                     font-size: 1.125rem;
                     text-decoration: none;
-                    color: rgba(0,0,0,.9);
+                    color: white;
                 }
             }
 
@@ -64,6 +65,10 @@ nav{
     }
 
     @media(max-width: 788px){
+        
+
+
+
         .open{
             .list-menu{
                 height: 100% !important;
@@ -127,6 +132,20 @@ nav{
         transform: rotate(45deg) translate(-9px, -8px);
     }
 
+}
+
+
+@media(max-width: 788px){
+    nav{
+        background-color: white !important;
+        transition: all 0.2s;
+        box-shadow: 0px 3px 20px rgba($color: #000000, $alpha: 0.07);
+    
+        .nav-link{
+            color: rgba(0,0,0,.9) !important;
+        }
+        
+    }
 }
 
 .flex{
@@ -222,6 +241,7 @@ nav{
     .backgroundIndex-banner{
         background-image: url('/image/home-banner.jpg');
         background-attachment: fixed;
+        background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         height: 100%;
