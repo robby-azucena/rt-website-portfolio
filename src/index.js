@@ -4,6 +4,7 @@ import 'rellax';
 
 import './image/home-banner.jpg'
 import './image/rt-logo.svg'
+import './image/rt-logo-white.svg'
 import './image/wave1.svg'
 import './image/wave2.svg'
 import './image/wave3.svg'
@@ -24,7 +25,6 @@ window.toggleMenu = function toggleMenu(x) {
 
 
 window.onscroll = function scroll(){
-    console.log(innerWidth)
     if (window.scrollY < 10){
         document.querySelector('#navigation').classList.remove('white-nav');
     } else{
@@ -35,26 +35,14 @@ window.onscroll = function scroll(){
 
 
 
-//window.addEventListener('fullscreenchange',scroll)
-//
-//window.scroll = function scroll(){
-//    if (window.matchMedia('(max-width: 788px)').matches){
-//        document.querySelector('#navigation').classList.remove('transparent-nav');
-//    } else {
-//        document.querySelector('#navigation').classList.add('transparent-nav');
-//    }
-//}
-
-
-
 
 
 
 
 let Rellax = require('rellax');
 
-new Rellax('.backgroundIndex-banner', '.rellax',{
-    speed: 0,
+new Rellax('.backgroundIndex-banner',{
+    speed: 2,
     center: false,
     wrapper: null,
     round: true,
@@ -62,6 +50,14 @@ new Rellax('.backgroundIndex-banner', '.rellax',{
     horizontal: false
 });
 
+new Rellax('.rellax',{
+    speed: 2,
+    center: false,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+});
 
 
 

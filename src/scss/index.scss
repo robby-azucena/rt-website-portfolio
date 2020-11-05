@@ -24,6 +24,14 @@ body{
     .nav-link{
         color: rgba(0,0,0,.9) !important;
     }
+
+    img.logo1{
+        display:none;
+    }
+
+    img.logo2{
+        display:block;
+    }
     
 }
 
@@ -34,13 +42,21 @@ nav{
     top:0;
     height:100px;
     width: 100%;
-    
-    
     transition: all 0.2s;
     transition-property: background-color;
     display: flex;
     align-items: center;
     padding: 10px 20px 10px 20px;
+
+    img.logo1{
+        display:block;
+    }
+
+    img.logo2{
+        display:none;
+    }
+
+    
 
     .nav-menu{
         margin-left: auto;
@@ -65,9 +81,13 @@ nav{
     }
 
     @media(max-width: 788px){
-        
+        img.logo1{
+            display:none;
+        }
 
-
+        img.logo2{
+            display:block;
+        }
 
         .open{
             .list-menu{
@@ -133,7 +153,6 @@ nav{
     }
 
 }
-
 
 @media(max-width: 788px){
     nav{
