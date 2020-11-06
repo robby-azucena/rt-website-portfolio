@@ -4,6 +4,7 @@ import 'rellax';
 
 import './image/home-banner.jpg'
 import './image/esg-banner.jpg'
+import './image/dm-banner.jpg'
 import './image/rt-logo.svg'
 import './image/rt-logo-white.svg'
 import './image/wave1.svg'
@@ -42,7 +43,7 @@ window.onscroll = function scroll(){
 
 let Rellax = require('rellax');
 
-new Rellax('.backgroundIndex-banner',{
+new Rellax('.background-banner',{
     speed: 2,
     center: false,
     wrapper: null,
