@@ -1,0 +1,73 @@
+#enterprise-banner{
+    margin-bottom: 30px;
+    min-width: auto;
+    height:90vh;
+    width: 100%;
+    .backgroundEnterprise-banner{
+        background-image: url('/image/esg-banner.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+
+        .container{
+            height:100%;
+            width: 100%;
+
+            h1{
+                margin-bottom: 10px;
+                font-size: 4.5rem;
+            }
+    
+            h2{
+                margin-bottom: 30px;
+                font-size: 1.75rem;
+                font-weight: 400;
+            }
+    
+            @media (max-width: 576px) {
+                h1{
+                    font-size: 1.875rem;
+                }
+                h2{
+                    font-size: 1.125rem;
+                }
+            }
+    
+            @media (max-width: 1023px) {
+                h1{
+                    font-size: 2.5rem;
+                }
+                h2{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+#enterprise-madeof{
+    position:relative;
+    width:100%;
+    height: 100%;
+    margin-bottom: 300px;
+    
+    .backgroundLiquid1{
+        width: 100%;
+        height: 450px;
+        position: absolute;
+        top: -270px;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        background-image: url('/image/wave1.svg');
+    }
+
+    h2{
+        color: #214C85;
+    }
+    
+
+    
+}

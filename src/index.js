@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap-grid.css'
 import 'rellax';
 
 import './image/home-banner.jpg'
+import './image/esg-banner.jpg'
 import './image/rt-logo.svg'
 import './image/rt-logo-white.svg'
 import './image/wave1.svg'
