@@ -17,6 +17,10 @@ import './image/app-dev.svg'
 import './image/it-aug.svg'
 import './image/ready-2-use.svg'
 import './image/sms-connect.svg'
+import './image/24-7.svg'
+import './image/agile.svg'
+import './image/dedicated.svg'
+import './image/multi.svg'
 
 
 
