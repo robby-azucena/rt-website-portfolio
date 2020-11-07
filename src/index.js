@@ -13,6 +13,10 @@ import './image/wave3.svg'
 import './image/wave4.svg'
 import './image/ent-sol.svg'
 import './image/digi-market.svg'
+import './image/app-dev.svg'
+import './image/it-aug.svg'
+import './image/ready-2-use.svg'
+import './image/sms-connect.svg'
 
 
 
