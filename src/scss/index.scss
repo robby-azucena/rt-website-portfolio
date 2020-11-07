@@ -64,6 +64,10 @@ body{
 }
 
 .m-10{
+    margin: 10px;
+}
+
+.my-10{
     margin-top:10px;
     margin-bottom: 10px;
 }
@@ -168,13 +172,13 @@ nav{
         }
 
         .nav-menu{
-            
             overflow: hidden;
             position: absolute;
+            left:0px;
             top:84px;
             height:197%;
             width:100%;
-            margin: 0px -20px 0px -20px;
+            
             
             .list-menu{
                 overflow: hidden;
