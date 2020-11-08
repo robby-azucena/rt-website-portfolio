@@ -22,6 +22,11 @@ import './image/24-7.svg'
 import './image/agile.svg'
 import './image/dedicated.svg'
 import './image/multi.svg'
+import './image/digi-strat.svg'
+import './image/influencer.svg'
+import './image/market-creative.svg'
+import './image/paid-media.svg'
+import './image/social-media.svg'
 
 
 

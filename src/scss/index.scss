@@ -266,6 +266,29 @@ nav{
     
 }
 
+#contact{
+    position:relative;
+    width:100%;
+    height: 100%;
+    background-color: #17689A;
+    padding-bottom: 100px;
+
+    button, h2, h3{
+        color:white;
+    }
+
+    .backgroundLiquid{
+        width: 100%;
+        height: 450px;
+        position: absolute;
+        top: -270px;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        background-image: url('/image/wave4.svg');
+    }
+}
+
 
 
 footer{
