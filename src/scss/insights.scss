@@ -105,8 +105,39 @@ nav#insights{
         -webkit-transform: rotate(45deg) translate(-8px, -8px);
         transform: rotate(45deg) translate(-9px, -8px);
     }
-
 }
 
+#breadcrumbs{
+    padding-top: 100px;
+    .links{
+        width: 100%;
+        padding: 20px 10px;
+    }
+}
+
+
+#search-engine{
+    padding:40px 10px;
+
+    .search{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .search-input{
+            display: flex;
+            flex-direction: row;
+            width:auto;
+        }
+
+        h1{
+            width: auto;
+            font-size: 3.5rem;
+            font-weight: 300;
+            color: #214C85;
+        }
+    }
+}
 
 
