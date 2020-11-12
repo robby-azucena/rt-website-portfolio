@@ -41,9 +41,9 @@ window.toggleMenu = function toggleMenu(x) {
 
 
 window.onscroll = function scroll(){
-    if (window.scrollY < 10){
+    if (window.scrollY < 10 && document.querySelector('#navigation')){
         document.querySelector('#navigation').classList.remove('white-nav');
-    } else{
+    } else if (window.scrollY > 10 && document.querySelector('#navigation')){
         document.querySelector('#navigation').classList.add('white-nav');
     } 
 }

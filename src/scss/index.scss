@@ -118,10 +118,12 @@ body{
     }
 }
 
+
 input{
     height: 50px;
     color: #333333;
     border: 1px solid #E2E2E2;
+    background-color: white;
     border-radius: 4px 0px 0px 4px;
     outline: none;
     font-size: 1rem;
@@ -327,6 +329,19 @@ footer{
             a{
                 color:white;
 
+            }
+        }
+    }
+
+    @media (max-width: 576px){
+        .footer-menu{
+            padding: 0;
+            flex-direction: column;
+            align-items: center;
+
+            li{
+                margin:10px 0px;
+                text-align: center;
             }
         }
     }
