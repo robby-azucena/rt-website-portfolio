@@ -166,6 +166,44 @@ nav#insights{
         h2{
             color: #214C85;
         }
+
+        .articles{
+            display:flex;
+            flex-direction: row;
+            align-items: flex-start;
+
+            img{
+                margin-right: 20px;
+            }
+
+            .article-description{
+                h3{
+                    font-size: 1.5rem;
+                }
+
+                h4{
+                    font-family: 'Montserrat', sans-serif !important;
+                    font-size: 1rem;
+                    margin-bottom: 10px;
+                    color: rgba($color: #333333, $alpha: 0.5);
+                }
+            }
+        }
+
+        @media (max-width:991px) {
+            .articles{
+                flex-direction: column;
+
+                img{
+                    margin-right:0px;
+                    margin-bottom: 20px;
+                }
+            }
+
+
+        }
+
+        
     }
 }
 
