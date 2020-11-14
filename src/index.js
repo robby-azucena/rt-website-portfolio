@@ -44,6 +44,22 @@ window.toggleMenu = function toggleMenu(x) {
 }
 
 
+window.expand1 = function expand1(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.less1').classList.add("show-btn");
+    } 
+}
+
+window.less1 = function less1(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.expand1').classList.add("show-btn");
+    } 
+}
+
 
 window.onscroll = function scroll(){
     if (window.scrollY < 10 && document.querySelector('#navigation')){

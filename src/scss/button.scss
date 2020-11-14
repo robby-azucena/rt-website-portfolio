@@ -65,3 +65,13 @@
 .btn-word:hover{
     text-decoration: underline;
 }
+
+.hide-btn{
+    visibility: hidden;
+    display:none;
+}
+
+.show-btn{
+    visibility: visible;
+    display:flex;
+}
