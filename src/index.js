@@ -32,6 +32,10 @@ import './image/influencer.svg'
 import './image/market-creative.svg'
 import './image/paid-media.svg'
 import './image/social-media.svg'
+import './image/mobile-app.svg'
+import './image/web-app.svg'
+import './image/system-int.svg'
+import './image/work-tools.svg'
 
 
 

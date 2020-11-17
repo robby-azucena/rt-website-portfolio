@@ -75,6 +75,15 @@ body{
     margin: 10px;
 }
 
+.m-30{
+    margin:30px;
+}
+
+.mx-30{
+    margin-left:30px;
+    margin-right: 30px;
+}
+
 .my-10{
     margin-top:10px;
     margin-bottom: 10px;
@@ -289,6 +298,40 @@ nav#navigation{
         display:block !important;
     }
 }
+
+
+.sub-description{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+
+    .details{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3,p{
+            width:auto;
+        }
+    }
+}
+
+@media (max-width:991px){
+    .sub-description{
+        display: flex;
+        flex-direction: column;
+    
+        .details{
+            text-align: center;
+        }
+    }
+}
+
+
+
+
 
 #contact{
     position:relative;
