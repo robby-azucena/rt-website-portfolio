@@ -53,6 +53,7 @@ window.expand1 = function expand1(x) {
         x.classList.remove("show-btn");
         x.classList.add("hide-btn");
         document.querySelector('.less1').classList.add("show-btn");
+        document.querySelector('#app-dev').classList.add("expand");
     } 
 }
 
@@ -61,6 +62,7 @@ window.less1 = function less1(x) {
         x.classList.remove("show-btn");
         x.classList.add("hide-btn");
         document.querySelector('.expand1').classList.add("show-btn");
+        document.querySelector('#app-dev').classList.remove("expand");
     } 
 }
 
