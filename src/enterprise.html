@@ -129,7 +129,7 @@
 				</div>
 				<div class="col-12 col-lg-6 my-15">
 					<div class="border-div sub-description h-100">
-						<img class="mx-30" src="/image/web-app.svg" width="auto" height="100%" alt="mobile development">
+						<img class="mx-30" src="/image/web-app.svg" width="auto" height="100%" alt="web app">
 						<div class="details mx-30">
 							<h3 class="mb-20">Web Application</h3>
 							<p class="mb-30">Website, e-Commerce Site, Reports Dashboard -- be known and do business as far as the internet reaches. The world is your market.</p>
@@ -138,7 +138,7 @@
 				</div>
 				<div class="col-12 col-lg-6 my-15">
 					<div class="border-div sub-description h-100">
-						<img class="mx-30" src="/image/work-tools.svg" width="auto" height="100%" alt="mobile development">
+						<img class="mx-30" src="/image/work-tools.svg" width="auto" height="100%" alt="work tools">
 						<div class="details mx-30">
 							<h3 class="mb-20">Work Tools</h3>
 							<p class="mb-30">You're already doing great, automate your business processes to achieve even better productivity.</p>
@@ -147,7 +147,7 @@
 				</div>
 				<div class="col-12 col-lg-6 my-15">
 					<div class="border-div sub-description h-100">
-						<img class="mx-30" src="/image/system-int.svg" width="auto" height="100%" alt="mobile development">
+						<img class="mx-30" src="/image/system-int.svg" width="auto" height="100%" alt="system integration">
 						<div class="details mx-30">
 							<h3 class="mb-20">Systems Integration</h3>
 							<p class="mb-30">An interconnected business is a manageable
@@ -179,7 +179,7 @@
 			<div id="it-staff" class="row section-subdetails">
 				<div class="col-12 col-lg-6 my-15">
 					<div class="border-div sub-description h-100">
-						<img class="mx-30" src="/image/staff-aug.svg" width="auto" height="100%" alt="mobile development">
+						<img class="mx-30" src="/image/staff-aug.svg" width="auto" height="100%" alt="Staff Augmentation">
 						<div class="details mx-30">
 							<h3 class="mb-20">Staff Augmentation</h3>
 							<p class="mb-30">Fill-up lacking positions in your team with our personnel, leave the recruitment and resource management to us and get to focus on your projects more.</p>
@@ -188,7 +188,7 @@
 				</div>
 				<div class="col-12 col-lg-6 my-15">
 					<div class="border-div sub-description h-100">
-						<img class="mx-30" src="/image/manage-service.svg" width="auto" height="100%" alt="mobile development">
+						<img class="mx-30" src="/image/manage-service.svg" width="auto" height="100%" alt="Managed Service">
 						<div class="details mx-30">
 							<h3 class="mb-20">Managed Service</h3>
 							<p class="mb-30">Delegate an entire business process to us; we'll take care of the expertise, people, and tools. All you get are results.</p>
@@ -210,9 +210,50 @@
 					<div class="description">
 						<h3 class="mb-20">SMS Connectivity</h3>
 						<p class="mb-30">Facilitate your own bulk SMS campaigns through a simplified, fast, reliable and secure SMS connectivity platform. Or do more things with SMS than just promo broadcast.</p>
-						<button class="btn btn-word">Expand to learn more <svg width='20px' height='20px' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+						<button class="btn btn-word expand3 show-btn" onclick="expand3(this)">Expand to learn more <svg width='20px' height='20px' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+						<button class="btn btn-word less3 hide-btn" onclick="less3(this)">Expand to learn more <svg width='20px' height='20px' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg></button>
 					</div>
 				</div>
+			</div>
+			<div id="sms" class="row section-subdetails">
+				<div class="col-12 col-lg-6 my-15">
+					<div class="border-div sub-description h-100">
+						<img class="mx-30" src="/image/marketing.svg" width="auto" height="100%" alt="marketing">
+						<div class="details mx-30">
+							<h3 class="mb-20">Marketing</h3>
+							<p class="mb-30">Our application-to-person or A2P messaging allows your system to send mass text messages like product promotions, announcements, alerts or reminders.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 my-15">
+					<div class="border-div sub-description h-100">
+						<img class="mx-30" src="/image/transaction.svg" width="auto" height="100%" alt="marketing">
+						<div class="details mx-30">
+							<h3 class="mb-20">Transaction</h3>
+							<p class="mb-30">Transactional messages such as order confirmations or shipment status notifications will help keep your customers’ minds at ease, knowing that their transactions have been quickly acknowledged.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 my-15">
+					<div class="border-div sub-description h-100">
+						<img class="mx-30" src="/image/auth.svg" width="auto" height="100%" alt="Authentication">
+						<div class="details mx-30">
+							<h3 class="mb-20">Authentication</h3>
+							<p class="mb-30">Protect your business and your customers against fraud through the power of mobile number verification. Reduce the risk of identity theft by confirming your users’ identity via a one-time password (OTP) sent directly to their mobile phones.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 my-15">
+					<div class="border-div sub-description h-100">
+						<img class="mx-30" src="/image/promo.svg" width="auto" height="100%" alt="Promo">
+						<div class="details mx-30">
+							<h3 class="mb-20">Promo</h3>
+							<p class="mb-30">Use our 2346 Access Code to Facilitate your Promo. Instead of having participants send an envelope of entries or keep raffle coupons, turn them all into mobile and instant redemption.</p>
+						</div>
+					</div>
+				</div>
+
+				
 			</div>
 		</div>
 	</section>

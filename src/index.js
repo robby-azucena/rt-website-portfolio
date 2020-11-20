@@ -38,6 +38,10 @@ import './image/system-int.svg'
 import './image/work-tools.svg'
 import './image/staff-aug.svg'
 import './image/manage-service.svg'
+import './image/auth.svg'
+import './image/marketing.svg'
+import './image/promo.svg'
+import './image/transaction.svg'
 
 
 
@@ -83,6 +87,24 @@ window.less2 = function less2(x) {
         x.classList.add("hide-btn");
         document.querySelector('.expand2').classList.add("show-btn");
         document.querySelector('#it-staff').classList.remove("expand");
+    } 
+}
+
+window.expand3 = function expand3(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.less3').classList.add("show-btn");
+        document.querySelector('#sms').classList.add("expand");
+    } 
+}
+
+window.less3 = function less3(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.expand3').classList.add("show-btn");
+        document.querySelector('#sms').classList.remove("expand");
     } 
 }
 
