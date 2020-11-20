@@ -55,15 +55,18 @@ import './image/corp-brand.svg'
 import './image/creative-content.svg'
 import './image/event-cover.svg'
 import './image/multi-design.svg'
+import './image/community-manage.svg'
+import './image/social-listen.svg'
+import './image/social-manage.svg'
 
 
 
 //nav button
-
 window.toggleMenu = function toggleMenu(x) {
         x.classList.toggle("change");
         document.querySelector('.nav-menu').classList.toggle('open')
 }
+
 
 
 window.expand1 = function expand1(x) {
@@ -189,6 +192,24 @@ window.less7 = function less7(x) {
         x.classList.add("hide-btn");
         document.querySelector('.expand7').classList.add("show-btn");
         document.querySelector('#market-creative').classList.remove("expand");
+    } 
+}
+
+window.expand8 = function expand8(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.less8').classList.add("show-btn");
+        document.querySelector('#social-media').classList.add("expand");
+    } 
+}
+
+window.less8 = function less8(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.expand8').classList.add("show-btn");
+        document.querySelector('#social-media').classList.remove("expand");
     } 
 }
 
