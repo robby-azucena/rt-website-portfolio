@@ -58,6 +58,10 @@ import './image/multi-design.svg'
 import './image/community-manage.svg'
 import './image/social-listen.svg'
 import './image/social-manage.svg'
+import './image/affiliate.svg'
+import './image/brand-market.svg'
+import './image/digi-public.svg'
+import './image/multi-platform.svg'
 
 
 
@@ -210,6 +214,24 @@ window.less8 = function less8(x) {
         x.classList.add("hide-btn");
         document.querySelector('.expand8').classList.add("show-btn");
         document.querySelector('#social-media').classList.remove("expand");
+    } 
+}
+
+window.expand9 = function expand9(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.less9').classList.add("show-btn");
+        document.querySelector('#influence').classList.add("expand");
+    } 
+}
+
+window.less9 = function less9(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.expand9').classList.add("show-btn");
+        document.querySelector('#influence').classList.remove("expand");
     } 
 }
 
