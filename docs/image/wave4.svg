@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1438.5px" height="418px" viewBox="0 0 1438.5 418" style="enable-background:new 0 0 1438.5 418;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#17689A;}
-</style>
-<path id="wave4" class="st0" d="M987.1,68.9c-110,33.6-223.7,68.3-446.9,68.3S203.2,102.5,93.2,68.9C62.9,59.7,32.3,50.4-0.7,41.7
-	V418h1440V0C1212.9,0,1098.1,35,987.1,68.9z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1438.5" height="418"><path d="M987.1 68.9c-110 33.6-223.7 68.3-446.9 68.3s-337-34.7-447-68.3C62.9 59.7 32.3 50.4-.7 41.7V418h1440V0c-226.4 0-341.2 35-452.2 68.9z" fill="#17689a"/></svg>
