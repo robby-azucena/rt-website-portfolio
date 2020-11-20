@@ -8,15 +8,6 @@ module.exports = {
         filename: '[name].js',
         path: __dirname + '/docs'
     },
-    optimization: {
-
-        splitChunks: {
-
-            chunks: 'all',
-
-        },
-
-    },
     devServer: {
         contentBase: path.join(__dirname, 'docs'),
         compress: true,
@@ -48,9 +39,26 @@ module.exports = {
                         options: {
                             name: 'image/[name].[ext]'
                         }
+                    },
+                    {
+                        loader: 'image-webpack-loader',
+                        options: {
+                            query: {
+                                mozjpeg: {
+                                    progressive: true,
+                                },
+                                gifsicle: {
+                                    interlaced: true,
+                                },
+                                optipng: {
+                                    optimizationLevel: 7,
+                                }
+                            }
+                        }
                     }
                 ]
             },
+            
             {
                 test: /\.(css|scss)$/,
                 use: [
