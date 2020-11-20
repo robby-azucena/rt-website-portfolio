@@ -36,6 +36,8 @@ import './image/mobile-app.svg'
 import './image/web-app.svg'
 import './image/system-int.svg'
 import './image/work-tools.svg'
+import './image/staff-aug.svg'
+import './image/manage-service.svg'
 
 
 
@@ -65,6 +67,30 @@ window.less1 = function less1(x) {
         document.querySelector('#app-dev').classList.remove("expand");
     } 
 }
+
+window.expand2 = function expand2(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.less2').classList.add("show-btn");
+        document.querySelector('#it-staff').classList.add("expand");
+    } 
+}
+
+window.less2 = function less2(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.expand2').classList.add("show-btn");
+        document.querySelector('#it-staff').classList.remove("expand");
+    } 
+}
+
+
+
+
+
+
 
 
 window.onscroll = function scroll(){
