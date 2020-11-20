@@ -51,6 +51,10 @@ import './image/seo.svg'
 import './image/display-ads.svg'
 import './image/fb-ads.svg'
 import './image/search-engine.svg'
+import './image/corp-brand.svg'
+import './image/creative-content.svg'
+import './image/event-cover.svg'
+import './image/multi-design.svg'
 
 
 
@@ -167,6 +171,24 @@ window.less6 = function less6(x) {
         x.classList.add("hide-btn");
         document.querySelector('.expand6').classList.add("show-btn");
         document.querySelector('#paid-media').classList.remove("expand");
+    } 
+}
+
+window.expand7 = function expand7(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.less7').classList.add("show-btn");
+        document.querySelector('#market-creative').classList.add("expand");
+    } 
+}
+
+window.less7 = function less7(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.expand7').classList.add("show-btn");
+        document.querySelector('#market-creative').classList.remove("expand");
     } 
 }
 
