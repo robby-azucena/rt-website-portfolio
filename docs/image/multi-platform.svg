@@ -1,1 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="121" height="103.535"><path d="M41.531 103.034L.5 76.944V.5h120v76.43H41.531v26.1zm9.886-80.943v34.141l26.237-17.221z" fill="#214c85" stroke="#214c85" fill-rule="evenodd"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="121" height="103.535" viewBox="0 0 121 103.535">
+  <path id="multi-platform" d="M41.031,102.534,0,76.444V0H120V76.43H41.031v26.1Zm9.886-80.943V55.732L77.154,38.511Z" transform="translate(0.5 0.5)" fill="#214c85" stroke="#214c85" stroke-width="1" fill-rule="evenodd"/>
+</svg>

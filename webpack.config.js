@@ -39,33 +39,19 @@ module.exports = {
                         options: {
                             name: 'image/[name].[ext]'
                         }
-                    },
-                    {
-                        loader: 'image-webpack-loader',
-                        options: {
-                            query: {
-                                mozjpeg: {
-                                    progressive: true,
-                                },
-                                gifsicle: {
-                                    interlaced: true,
-                                },
-                                optipng: {
-                                    optimizationLevel: 7,
-                                }
-                            }
-                        }
                     }
                 ]
             },
-            
             {
                 test: /\.(css|scss)$/,
                 use: [
                     "style-loader",
-                    "css-loader",
+                    {
+                        loader: 'css-loader',
+                        options: { url: false }
+                      },
                     "sass-loader"
-                ]
+                ],
             }
         ]
     },
