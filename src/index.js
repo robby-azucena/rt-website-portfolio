@@ -44,6 +44,10 @@ import './image/promo.svg'
 import './image/transaction.svg'
 import './image/bizload.svg'
 import './image/kast-logo.svg'
+import './image/analytics.svg'
+import './image/digi-mark.svg'
+import './image/funnel.svg'
+import './image/seo.svg'
 
 
 
@@ -125,6 +129,24 @@ window.less4 = function less3(x) {
         x.classList.add("hide-btn");
         document.querySelector('.expand4').classList.add("show-btn");
         document.querySelector('#ready').classList.remove("expand");
+    } 
+}
+
+window.expand5 = function expand5(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.less5').classList.add("show-btn");
+        document.querySelector('#digi-strat').classList.add("expand");
+    } 
+}
+
+window.less5 = function less5(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.expand5').classList.add("show-btn");
+        document.querySelector('#digi-strat').classList.remove("expand");
     } 
 }
 
