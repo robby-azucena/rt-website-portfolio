@@ -48,7 +48,9 @@ import './image/analytics.svg'
 import './image/digi-mark.svg'
 import './image/funnel.svg'
 import './image/seo.svg'
-
+import './image/display-ads.svg'
+import './image/fb-ads.svg'
+import './image/search-engine.svg'
 
 
 
@@ -147,6 +149,24 @@ window.less5 = function less5(x) {
         x.classList.add("hide-btn");
         document.querySelector('.expand5').classList.add("show-btn");
         document.querySelector('#digi-strat').classList.remove("expand");
+    } 
+}
+
+window.expand6 = function expand6(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.less6').classList.add("show-btn");
+        document.querySelector('#paid-media').classList.add("expand");
+    } 
+}
+
+window.less6 = function less6(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.expand6').classList.add("show-btn");
+        document.querySelector('#paid-media').classList.remove("expand");
     } 
 }
 
