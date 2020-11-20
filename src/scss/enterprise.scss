@@ -4,7 +4,7 @@
     height:90vh;
     width: 100%;
     .backgroundEnterprise-banner{
-        background-image: url('/image/esg-banner.jpg');
+        background-image: url('./image/esg-banner.jpg');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
@@ -62,7 +62,7 @@
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
-        background-image: url('/image/wave1.svg');
+        background-image: url('./image/wave1.svg');
     }
 
     h2{
@@ -130,7 +130,7 @@
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
-        background-image: url('/image/wave5.svg');
+        background-image: url('./image/wave5.svg');
     }
     
 
@@ -166,7 +166,7 @@
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
-        background-image: url('/image/wave3.svg');
+        background-image: url('./image/wave3.svg');
     }
     
 
@@ -202,7 +202,7 @@
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
-        background-image: url('/image/wave1.svg');
+        background-image: url('./image/wave1.svg');
     }
     
 
@@ -242,6 +242,6 @@
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
-        background-image: url('/image/wave4.svg');
+        background-image: url('./image/wave4.svg');
     }
 }

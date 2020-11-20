@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="109"><g transform="translate(5)"><path data-name="Path 27" d="M0 104h120" fill="#214c85" stroke="#214c85" stroke-linecap="round" stroke-width="10"/><path data-name="Rectangle 21" fill="#214c85" d="M18 59h9v45h-9z"/><path data-name="Rectangle 22" fill="#214c85" d="M43 69h10v35H43z"/><path data-name="Rectangle 23" fill="#214c85" d="M70 54h9v50h-9z"/><path data-name="Rectangle 24" fill="#214c85" d="M95 29h10v75H95z"/><path data-name="Path 26" d="M22.564 29.177l25.141 17.174 52.554-40.188" fill="none" stroke="#214c85" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle data-name="Ellipse 4" cx="5.5" cy="5.5" r="5.5" transform="translate(17 24)" fill="#214c85"/><circle data-name="Ellipse 5" cx="6" cy="6" r="6" transform="translate(42 40)" fill="#214c85"/><circle data-name="Ellipse 6" cx="5.5" cy="5.5" r="5.5" transform="translate(69 21)" fill="#214c85"/><circle data-name="Ellipse 7" cx="6" cy="6" r="6" transform="translate(94)" fill="#214c85"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="109" viewBox="0 0 130 109">
+  <g id="analytics" transform="translate(5)">
+    <path id="Path_27" data-name="Path 27" d="M0,0H120" transform="translate(0 104)" fill="#214c85" stroke="#214c85" stroke-linecap="round" stroke-width="10"/>
+    <rect id="Rectangle_21" data-name="Rectangle 21" width="9" height="45" transform="translate(18 59)" fill="#214c85"/>
+    <rect id="Rectangle_22" data-name="Rectangle 22" width="10" height="35" transform="translate(43 69)" fill="#214c85"/>
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="9" height="50" transform="translate(70 54)" fill="#214c85"/>
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="10" height="75" transform="translate(95 29)" fill="#214c85"/>
+    <path id="Path_26" data-name="Path 26" d="M870,1724.286l25.141,17.174,52.554-40.188" transform="translate(-847.436 -1695.109)" fill="none" stroke="#214c85" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="5.5" cy="5.5" r="5.5" transform="translate(17 24)" fill="#214c85"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="6" cy="6" r="6" transform="translate(42 40)" fill="#214c85"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="5.5" cy="5.5" r="5.5" transform="translate(69 21)" fill="#214c85"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="6" cy="6" r="6" transform="translate(94)" fill="#214c85"/>
+  </g>
+</svg>
