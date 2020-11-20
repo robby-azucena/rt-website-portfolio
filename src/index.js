@@ -42,6 +42,8 @@ import './image/auth.svg'
 import './image/marketing.svg'
 import './image/promo.svg'
 import './image/transaction.svg'
+import './image/bizload.svg'
+import './image/kast-logo.svg'
 
 
 
@@ -105,6 +107,24 @@ window.less3 = function less3(x) {
         x.classList.add("hide-btn");
         document.querySelector('.expand3').classList.add("show-btn");
         document.querySelector('#sms').classList.remove("expand");
+    } 
+}
+
+window.expand4 = function expand3(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.less4').classList.add("show-btn");
+        document.querySelector('#ready').classList.add("expand");
+    } 
+}
+
+window.less4 = function less3(x) {
+    if (x.classList.contains('show-btn')){
+        x.classList.remove("show-btn");
+        x.classList.add("hide-btn");
+        document.querySelector('.expand4').classList.add("show-btn");
+        document.querySelector('#ready').classList.remove("expand");
     } 
 }
 
