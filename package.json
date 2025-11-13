@@ -12,14 +12,12 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "build": "webpack",
-    "start:dev": "webpack-dev-server"
+    "build": "webpack"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
